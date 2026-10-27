@@ -1,0 +1,9 @@
+# Web server
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9   # required by FastAPI for UploadFile / form uploads
+
+# Image handling and model
+pillow>=10.0
+numpy>=1.26
+tensorflow>=2.16          # match the version you trained with; .keras files saved with Keras 3 need TF 2.16+
